@@ -2,6 +2,7 @@ body
 {
     margin: 0%;
     padding: 0%;
+    background-color:aqua;
 }
 
 #container
@@ -10,9 +11,37 @@ body
     flex-direction: row;
     align-items:stretch;
     justify-content: center;
-    margin-top: 5%;
     flex-wrap: wrap;
     padding: 0%;
+}
+
+.flex-container 
+{
+    flex: 1 1 0;
+    display: flex;
+    gap: 10px;
+    margin: 30px;
+    align-items:stretch;
+    flex-wrap: wrap;
+}
+
+.flex-container div
+{
+    flex:1 1 0;
+    align-content: center;
+    justify-content:space-evenly;
+    flex-basis: 200px;
+    text-align: center;
+}
+
+button
+{
+    background-color: black;
+    border: 0;
+    color: aliceblue;
+    padding: 5px;
+    width: 100px;
+    height: 40px;
 }
 
 .grid-item
@@ -24,6 +53,7 @@ body
     text-align: center;
     font-size: 10px;
     align-content: center;
+    background-color: white;
 }
 
 .footer
