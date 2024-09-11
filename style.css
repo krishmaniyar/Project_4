@@ -1,9 +1,16 @@
+body
+{
+    margin: 0%;
+    padding: 0%;
+}
 
 #container
 {
     display: flex;
     flex-direction: row;
     align-items:stretch;
+    justify-content: center;
+    margin-top: 5%;
     flex-wrap: wrap;
     padding: 0%;
 }
@@ -11,10 +18,39 @@
 .grid-item
 {
     justify-content:space-evenly;
-    height: 20px;
-    width:20px;
+    height: 30px;
+    width:30px;
     border: 1px solid;
     text-align: center;
     font-size: 10px;
     align-content: center;
+}
+
+.footer
+{
+    height: 40px;
+    font-size: 18px;
+    background-color: cadetblue;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    color: black;
+}
+
+.header
+{
+    text-align: center;
+    color: black; 
+    background-color: cadetblue; 
+    margin: 0%;padding: 0%; 
+    height: 60px;
+    align-content: center;
+}
+
+h1
+{
+    margin: 0%;
 }
