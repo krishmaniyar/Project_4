@@ -1,0 +1,20 @@
+
+#container
+{
+    display: flex;
+    flex-direction: row;
+    align-items:stretch;
+    flex-wrap: wrap;
+    padding: 0%;
+}
+
+.grid-item
+{
+    justify-content:space-evenly;
+    height: 20px;
+    width:20px;
+    border: 1px solid;
+    text-align: center;
+    font-size: 10px;
+    align-content: center;
+}
